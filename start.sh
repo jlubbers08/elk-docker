@@ -151,5 +151,4 @@ if [ "$ELASTICSEARCH_START" -ne "1" ] && [ "$LOGSTASH_START" -ne "1" ] \
 fi
 
 touch $OUTPUT_LOGFILES
-tail -f $OUTPUT_LOGFILES &
-wait
+tail -f $OUTPUT_LOGFILES
